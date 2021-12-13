@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="r1b-c3-MLn">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController interfaceStyle="light" id="BYZ-38-t0r" customClass="ViewController" customModule="FunFactAboutAnimal" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nCA-3e-noh"/>
+                        <viewControllerLayoutGuide type="bottom" id="5gx-Vd-QfT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="HM3-aW-Cjn">
+                                <rect key="frame" x="56" y="132" width="303" height="316"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6l8-8O-e6X">
+                                        <rect key="frame" x="0.0" y="0.0" width="303" height="138"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="138" id="pEK-OX-Gxe"/>
+                                            <constraint firstAttribute="width" constant="303" id="uXh-1x-fcC"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Fun Fact About Cat">
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <font key="NSFont" size="36" name="ChalkboardSE-Regular"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <buttonConfiguration key="configuration" style="gray" title="Fun Fact About Cat" cornerStyle="medium">
+                                            <backgroundConfiguration key="background" strokeWidth="4">
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="strokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="36"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="UWn-s1-TzI" kind="show" id="frg-fK-vbS"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JP7-RW-JGf">
+                                        <rect key="frame" x="0.0" y="178" width="303" height="138"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="303" id="fEp-8k-NT3"/>
+                                            <constraint firstAttribute="height" constant="138" id="wCv-AN-39a"/>
+                                        </constraints>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="Fun Dog Image" cornerStyle="medium">
+                                            <backgroundConfiguration key="background" strokeWidth="4">
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="strokeColor" red="0.051753632724285126" green="0.030868031084537506" blue="0.017421288415789604" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="36"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="UaR-WU-pKj" kind="show" id="bsK-np-zfG"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="316" id="1Sd-PY-a0K"/>
+                                    <constraint firstAttribute="width" constant="303" id="xsg-Yh-sEN"/>
+                                </constraints>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="puppy care (1)" translatesAutoresizingMaskIntoConstraints="NO" id="s3V-0b-OsB">
+                                <rect key="frame" x="0.0" y="501" width="414" height="335"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="s3V-0b-OsB" firstAttribute="top" secondItem="HM3-aW-Cjn" secondAttribute="bottom" constant="53" id="09C-sp-46k"/>
+                            <constraint firstAttribute="trailing" secondItem="s3V-0b-OsB" secondAttribute="trailing" id="1ea-yC-R1P"/>
+                            <constraint firstItem="HM3-aW-Cjn" firstAttribute="top" secondItem="nCA-3e-noh" secondAttribute="bottom" constant="44" id="98S-9t-hCi"/>
+                            <constraint firstItem="s3V-0b-OsB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="GBv-3z-d3w"/>
+                            <constraint firstItem="5gx-Vd-QfT" firstAttribute="top" secondItem="s3V-0b-OsB" secondAttribute="bottom" constant="26" id="S0o-tb-FyC"/>
+                            <constraint firstItem="HM3-aW-Cjn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="36" id="feE-dV-rWI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="HM3-aW-Cjn" secondAttribute="trailing" constant="36" id="wKg-fb-O0m"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ehw-Qc-3vC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1042.0289855072465" y="109.82142857142857"/>
+        </scene>
+        <!--Dog Image-->
+        <scene sceneID="VaF-On-hTa">
+            <objects>
+                <viewController id="UaR-WU-pKj" customClass="DogImage" customModule="FunFactAboutAnimal" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rUu-Gd-HCP"/>
+                        <viewControllerLayoutGuide type="bottom" id="CDs-j7-qej"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wOX-9H-0af" customClass="UITableView">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="adorable-white-pomeranian-puppy-spitz-921029690-5c8be25d46e0fb000172effe" translatesAutoresizingMaskIntoConstraints="NO" id="D1A-le-YcA">
+                                <rect key="frame" x="0.0" y="96" width="414" height="758"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="76B-kb-oMg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fuY-XW-4uo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="150.72463768115944" y="793.52678571428567"/>
+        </scene>
+        <!--Cat Fact-->
+        <scene sceneID="rMx-qj-KXE">
+            <objects>
+                <viewController id="UWn-s1-TzI" customClass="CatFact" customModule="FunFactAboutAnimal" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="F0q-3M-P8w"/>
+                        <viewControllerLayoutGuide type="bottom" id="KbZ-RT-qTR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Xrc-2x-mGP" customClass="UITableView">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="heH-Da-fE5">
+                                <rect key="frame" x="137.5" y="510" width="139" height="65"/>
+                                <color key="tintColor" red="0.051753632724285126" green="0.030868031084537506" blue="0.017421288415789604" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="History">
+                                    <backgroundConfiguration key="background" strokeWidth="4">
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="strokeColor" red="0.051753632724285126" green="0.030868031084537506" blue="0.017421288415789604" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="36"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="r2O-DH-IPG" kind="show" id="dJc-Cj-gql"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TIC-uo-tbm">
+                                <rect key="frame" x="48" y="118" width="319" height="321"/>
+                                <color key="tintColor" systemColor="systemPinkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="321" id="IIS-Hh-GEx"/>
+                                    <constraint firstAttribute="width" constant="319" id="qf6-jm-ZBT"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <mutableString key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor"/>
+                                            <font key="NSFont" size="24" name="ChalkboardSE-Regular"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="TIC-uo-tbm" firstAttribute="top" secondItem="F0q-3M-P8w" secondAttribute="bottom" constant="30" id="6Jp-pv-aIC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TIC-uo-tbm" secondAttribute="trailing" constant="28" id="EqI-f0-Stu"/>
+                            <constraint firstItem="heH-Da-fE5" firstAttribute="top" secondItem="TIC-uo-tbm" secondAttribute="bottom" constant="71" id="UWS-ay-7nW"/>
+                            <constraint firstItem="heH-Da-fE5" firstAttribute="centerX" secondItem="Xrc-2x-mGP" secondAttribute="centerX" id="VSp-FA-LfA"/>
+                            <constraint firstItem="TIC-uo-tbm" firstAttribute="centerX" secondItem="Xrc-2x-mGP" secondAttribute="centerX" id="bxB-Ix-rb2"/>
+                            <constraint firstItem="TIC-uo-tbm" firstAttribute="leading" secondItem="Xrc-2x-mGP" secondAttribute="leadingMargin" constant="28" id="hwk-7S-iP6"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="aye-Qt-tpv"/>
+                    <connections>
+                        <outlet property="factText" destination="TIC-uo-tbm" id="YYb-KY-VdH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b2Y-PX-lwb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1808.6956521739132" y="793.52678571428567"/>
+        </scene>
+        <!--Cat Fact History-->
+        <scene sceneID="9vx-lY-C7S">
+            <objects>
+                <viewController id="r2O-DH-IPG" customClass="CatFactHistory" customModule="FunFactAboutAnimal" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="q69-Bb-Hoe"/>
+                        <viewControllerLayoutGuide type="bottom" id="l0t-Iz-QkL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="apd-aT-Wwr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="mWA-3U-lkX">
+                                <rect key="frame" x="0.0" y="113" width="414" height="724"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="0.0" shouldIndentWhileEditing="NO" reuseIdentifier="cell1" rowHeight="200" id="psC-CF-dka" customClass="HistoryTableViewCell" customModule="FunFactAboutAnimal" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="200"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="psC-CF-dka" id="5hd-53-7uB">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="i8z-7k-efe">
+                                                    <rect key="frame" x="50" y="11" width="314" height="156"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tpi-8h-lPb">
+                                                            <rect key="frame" x="136.5" y="0.0" width="41.5" height="20"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" red="0.28485170006752014" green="0.30751138925552368" blue="0.068416379392147064" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RlI-lN-aY1">
+                                                            <rect key="frame" x="0.0" y="28" width="314" height="128"/>
+                                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="128" id="YqY-36-ZdF"/>
+                                                                <constraint firstAttribute="width" constant="314" id="sYh-Ce-NlV"/>
+                                                            </constraints>
+                                                            <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                                            <color key="textColor" systemColor="labelColor"/>
+                                                            <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="18"/>
+                                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                        </textView>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="180" id="Dae-KN-hbB"/>
+                                                        <constraint firstAttribute="width" constant="314" id="Ld4-a2-P5M"/>
+                                                    </constraints>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="i8z-7k-efe" secondAttribute="trailing" constant="30" id="Ap7-Bl-3Ez"/>
+                                                <constraint firstItem="i8z-7k-efe" firstAttribute="top" secondItem="5hd-53-7uB" secondAttribute="topMargin" id="DP3-9c-TX0"/>
+                                                <constraint firstItem="i8z-7k-efe" firstAttribute="leading" secondItem="5hd-53-7uB" secondAttribute="leadingMargin" constant="30" id="WJg-Cy-rZL"/>
+                                                <constraint firstItem="i8z-7k-efe" firstAttribute="centerX" secondItem="5hd-53-7uB" secondAttribute="centerX" id="nuY-50-DIp"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="i8z-7k-efe" secondAttribute="bottom" constant="22" id="x9J-Va-dWa"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="histTxtView" destination="RlI-lN-aY1" id="Xec-Y3-Lst"/>
+                                            <outlet property="timestampLbl" destination="Tpi-8h-lPb" id="Jw4-FC-Egc"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="mWA-3U-lkX" secondAttribute="trailing" id="AUp-NN-45G"/>
+                            <constraint firstItem="l0t-Iz-QkL" firstAttribute="top" secondItem="mWA-3U-lkX" secondAttribute="bottom" constant="25" id="BjO-cz-zE0"/>
+                            <constraint firstItem="mWA-3U-lkX" firstAttribute="leading" secondItem="apd-aT-Wwr" secondAttribute="leading" id="Pxd-eN-3i1"/>
+                            <constraint firstItem="mWA-3U-lkX" firstAttribute="top" secondItem="q69-Bb-Hoe" secondAttribute="bottom" constant="25" id="ZIq-pB-oPN"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="hOO-Hk-4JC"/>
+                    <connections>
+                        <outlet property="historyTblView" destination="mWA-3U-lkX" id="uN1-1e-h6G"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ale-sx-pW4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2544.9275362318845" y="793.52678571428567"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Wic-Hd-Hzl">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="r1b-c3-MLn" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2mS-NA-hPh">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="dmD-EG-DUC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cBL-lc-wj0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="109.82142857142857"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="adorable-white-pomeranian-puppy-spitz-921029690-5c8be25d46e0fb000172effe" width="4231" height="2820"/>
+        <image name="puppy care (1)" width="500" height="500"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
